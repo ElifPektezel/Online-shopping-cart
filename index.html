@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Sepeti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="urunler">
+          <div class="product-box"> <h2>Ürünler</h2>  
+            <input type="text" id="searchBox" placeholder="Ürün ara..."></div>
+            <ul id="productList">
+                <!-- Ürünler burada listelenecek -->
+            </ul>
+        </section>
+        <section class="sepet">
+            <h2>Sepet</h2>
+            <ul id="cartList">
+                <!-- Sepet içeriği burada görüntülenecek -->
+            </ul>
+            <p>Toplam Fiyat: <span id="totalPrice">0 TL</span></p>
+            <button id="orderButton">Siparişi Tamamla</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
